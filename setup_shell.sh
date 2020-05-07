@@ -18,7 +18,8 @@ chsh -s /bin/zsh
 
 # in .zshrc add user to hide user from PS1
 DEFAULT_USER=lesley
-# also set theme to agnoster
+ZSH_THEME="agnoster"
+plugins=(git capistrano bundler autojump command-not-found python pip github gnu-utils history-substring-search zsh-syntax-highlighting)
 
 git clone https://github.com/powerline/fonts .fonts
 #TODO: install fonts
@@ -29,7 +30,6 @@ git clone git://github.com/wting/autojump.git ~/.autojump
 cd .autojump
 ./install.py
 cd
-plugins=(git capistrano bundler autojump command-not-found python pip github gnu-utils history-substring-search zsh-syntax-highlighting)
 
 git clone https://github.com/seebi/dircolors-solarized ~/.dircolors-solarized
 
