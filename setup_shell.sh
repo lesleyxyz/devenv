@@ -18,6 +18,10 @@ chsh -s /bin/zsh
 
 # in .zshrc add user to hide user from PS1
 DEFAULT_USER=lesley
+# also set theme to agnoster
+
+git clone https://github.com/powerline/fonts .fonts
+#TODO: install fonts
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
