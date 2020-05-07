@@ -10,7 +10,7 @@ sudo apt install git zsh htop screen unzip
 sudo apt install netcat hexedit binutils gdb binwalk
 
 #DEV
-sudo apt install python python3 git build-essential make
+sudo apt install python python3 git build-essential gcc c++ make curl software-properties-common
 
 #install ohmyzsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
